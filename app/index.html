@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Session 2</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <style>
+    input, textarea {
+      display: block;
+      margin: 1rem;
+      width: 70%;
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <h1>Now on the app store!</h1>
+  </header>
+  
+  <nav id="main">
+    <div class="logo"><img src="img/logo.svg" /></div>
+    <div class="navitems"></div>
+  </nav>
+  
+  <div class="site-wrap"></div>
+
+  <form action="http://localhost:3001/api/recipes" method="POST">
+    <input type="text" placeholder="name" name="name">
+    <input type="text" placeholder="title" name="title">
+    <input type="text" placeholder="description" name="description"></input>
+    <input type="text" placeholder="list preparation steps by commas" name="preparation"></input>
+    <input type="text" placeholder="list ingredients by commas" name="ingredients"></input>
+    <button type="submit">Submit</button>
+  </form>
+  
+  <script src="js/index.js"></script>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
